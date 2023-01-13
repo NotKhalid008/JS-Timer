@@ -1,0 +1,18 @@
+{
+"manifest_version": 3,
+  "name": "Timer",
+  "icons": {
+    "16": "extlogo.png"
+  },
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "cs50ext.html",
+    "default_title": "Javascript timer"
+  },
+  "content_scripts": [
+    {
+    "matches": ["<all_urls>"],
+    "js": ["cs50extjs.js"]
+  }
+]
+}
