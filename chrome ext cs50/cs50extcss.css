@@ -7,9 +7,9 @@ body {
   justify-content: space-between;
 }
 #card {
-    background: #333333;
-    width: 350px;
-    height: 100px;
+    background: #333;
+    width: 220px;
+    height: 160px;
     margin: 10px;
     justify-content: right;
     border-radius: 15px;
@@ -23,100 +23,71 @@ body {
     color: white;
     margin: auto;
 }
-#buttons1 {
+.buttons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-}
-#buttons2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 }
 #myBtn1 {
     border-radius: 10px;
     width: 50px;
     height: 50px;
     cursor: pointer;
-    margin-right: 14px;
+    font-size: 10px;
+    
 }
 #myBtn2 {
     border-radius: 10px;
     width: 50px;
     height: 50px;
     cursor: pointer;
-    margin-left: 75px;
+    font-size: 10px;
+    padding-left:5px;
+  
 }
 #myBtn3 {
     border-radius: 10px;
     width: 50px;
     height: 50px;
     cursor: pointer;
-    margin-left: 75px;
+    font-size: 10px;
+    padding-left:3px;
 }
 #myBtn4 {
     border-radius: 10px;
     width: 50px;
     height: 50px;
     cursor: pointer;
-    margin-right: 14px;
-    padding-left: 1px; 
+    font-size: 8px;
+    padding-left:3px; 
 }
-.clock_part {
-    font-family: sans-serif;
-    font-size: 40px;
-    color: white;
-    float: left;
-}
-#myInsert {
-    display: grid;
-  
-}
+
 #myInpt {
-    width: 160px;
+    width: 220px;
     border-radius: 10px;
     border: 2px solid black;
-    height: 50px;
+    height: 45px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
 }
 input::placeholder {
     font-size: 11px;
 }
-#uls1 {
-      border-radius: 10px;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    margin-right: 14px;
-    padding-left: 1px; 
-  display: none;
-}
-#uls2 {
-      border-radius: 10px;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    margin-right: 14px;
-    padding-left: 1px; 
-  display: none;
-}
-#uls3 {
-      border-radius: 10px;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    margin-right: 14px;
-    padding-left: 1px; 
-  display: none;
-}
-#uls4 {
-      border-radius: 10px;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    margin-right: 14px;
-    padding-left: 1px; 
-  display: none;
-}
-#myAll {
-  float: right;
+
+#myVal {
+  font-family: sans-serif;
+  margin-bottom: 5px;
+  font-size: 30px;
+  color: black;
+  width: 220px;
+  height: 50px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
