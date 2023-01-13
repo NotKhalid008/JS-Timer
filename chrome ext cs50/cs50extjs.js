@@ -37,7 +37,7 @@ audio.play();
 })
 myReset.addEventListener("click", function() {
     resetBtn = clearInterval(timer)
-    document.querySelector('#myVal').innerHTML = "0000";
+    document.querySelector('#myVal').innerHTML = " ";
     myAudio.pause();
   })
 })
